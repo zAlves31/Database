@@ -1,0 +1,21 @@
+<mxfile host="app.diagrams.net" modified="2023-07-25T12:08:31.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NfPq-RzIswUXBs0biQg1" version="21.6.5" type="device" pages="2">
+  <diagram name="Página-1" id="KSPEgrZUfB-e6DSOW-vT">
+    <mxGraphModel dx="1877" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tN1VuvBuu013xch3o7Nf-1" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;A Optus é uma empresa no ramo musical que deseja realizar o gerenciamento dos lançamentos de novos cds de seus artistas. Cada álbum lançado poderá conter mais de um estilo vinculado (ex.: Indie e Folk).&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;É importante que você crie também uma estratégia para que os usuários possuam acesso à plataforma.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Os usuários deverão conter nome, email, senha e o tipo de permissão (eles podem ser do tipo administrador ou comum).&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Observações:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Os Artistas deverão possuir somente nome.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Estilos: nome.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Albuns: titulo, data de lançamento, localizacao, quantidade de minutos, se o álbum está ativo para visualização, a quem pertence (somente um artista por álbum) e quais os estilos vinculados.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="-827" width="1140" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XGf7jeXM4dhYgLisxi1Y" name="Página-2">
+    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
