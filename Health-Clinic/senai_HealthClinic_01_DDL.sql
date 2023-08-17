@@ -31,8 +31,8 @@ CREATE TABLE Clinica
 	IdClinica INT PRIMARY KEY IDENTITY,
 	NomeFantasia VARCHAR(30) NOT NULL,
 	Endereco VARCHAR(50) NOT NULL,
-	Abertura TIME NOT NULL,
-	Fechamento TIME NOT NULL,
+	Abertura DATETIME NOT NULL,
+	Fechamento DATETIME NOT NULL,
 	CNPJ CHAR(14) NOT NULL,
 	RazaoSocial VARCHAR(50) NOT NULL
 )
@@ -63,8 +63,11 @@ CREATE TABLE Medico
 	IdUsuario INT FOREIGN KEY REFERENCES Usuario(IdUsuario) NOT NULL,
 	IdEspecialidade INT FOREIGN KEY REFERENCES Especialidade(IdEspecialidade) NOT NULL,
 	IdClinica INT FOREIGN KEY REFERENCES Clinica(IdClinica) NOT NULL,
-	CRM CHAR (7) NOT NULL
+	CRM CHAR (11) NOT NULL
 )
+
+ALTER TABLE Medico
+ALTER COLUMN CRM CHAR (11) 
 
 CREATE TABLE Consulta
 (
@@ -73,6 +76,6 @@ CREATE TABLE Consulta
 	IdMedico INT FOREIGN KEY REFERENCES Medico(IdMedico) NOT NULL,
 	IdComentario INT FOREIGN KEY REFERENCES Comentario(IdComentario) NOT NULL,
 	IdProntuario INT FOREIGN KEY REFERENCES Prontuario(IdProntuario) NOT NULL,
-	CRM CHAR (7) NOT NULL
+	DataAgendamento DATE NOT NULL,
+	Descricao VARCHAR(256) NOT NULL
 )
-
